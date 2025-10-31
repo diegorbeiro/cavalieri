@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fazer Login %281%29.png" />
+    <None Remove="Fazer Login.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fazer Login (1).png" />
+    <Resource Include="Fazer Login.png" />
+  </ItemGroup>
+
+</Project>
