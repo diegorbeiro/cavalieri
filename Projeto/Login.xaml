@@ -9,8 +9,12 @@
       Title="Login">
 
     <Grid>
-        <Image Source="/Fazer Login (1).png" RenderTransformOrigin="0.5,0.5"
-       Stretch="UniformToFill"/>
-
+        <Viewbox Stretch="Fill">
+            <Grid Width="800" Height="600">
+                <Image Source="/Fazer Login (1).png" Stretch="Fill"/>
+                <Button x:Name="Loginss" Content="Login" Background="Red" BorderBrush="{x:Null}"  Width="108" Height="38" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="487,471,0,0"/>
+                <Button x:Name="Loginssss" Content="Entrar" Background="Red" BorderBrush="{x:Null}" Width="108" Height="38" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="612,471,0,0"/>
+            </Grid>
+        </Viewbox>
     </Grid>
 </Page>
