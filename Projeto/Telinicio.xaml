@@ -11,9 +11,16 @@
     <Grid>
         <Viewbox Stretch="Fill">
             <Grid Width="800" Height="600">
+<<<<<<< HEAD
                 <Image Source="/LOGIN.png" Stretch="Fill" Margin="0,0,-16,0"/>
                 <Button x:Name="Cadastro" Content="Entrar" Background="Red" BorderBrush="{x:Null}" Click="Cadastro_Click" Width="108" Height="38" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="242,469,0,0" Opacity="0"/>
                 <Button x:Name="Login" Content="Entrar" Background="Red" BorderBrush="{x:Null}" Click="Login_Click" Width="107" Height="38" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="435,469,0,0" Opacity="0"/>
+=======
+                <Image Source="/Fazer Login (3).png" Stretch="Fill" IsEnabled="False"/>
+                <Button x:Name="Login" Content="Login" BorderBrush="{x:Null}" Click="Login_Click" Width="108" Height="38" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="181,448,0,0" Foreground="{x:Null}" Background="{x:Null}"/>
+                <Button x:Name="Logins" Content="Entrar" Background="{x:Null}" BorderBrush="{x:Null}" Click="Login_Click" Width="108" Height="38" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,449,0,0" Foreground="{x:Null}" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="False"/>
+                <Button x:Name="Logins_Copiar" Content="Entrar" Background="{x:Null}" BorderBrush="{x:Null}" Click="Login_Click" Width="107" Height="38" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="509,449,0,0" Foreground="{x:Null}"/>
+>>>>>>> aef30234cf59f0470e843743cd78d31abc015366
             </Grid>
         </Viewbox>
     </Grid>
