@@ -16,27 +16,22 @@ using System.Windows.Shapes;
 namespace Projeto
 {
     /// <summary>
-    /// Interação lógica para Telinicio.xam
+    /// Interação lógica para Cadastro.xam
     /// </summary>
-    public partial class Telinicio : Page
+    public partial class Cadastro : Page
     {
-        public Telinicio()
+        public Cadastro()
         {
             InitializeComponent();
-        }
-
-        private void Cadastro_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Cadastro());
         }
         private void Login_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new Login());
         }
+
         private void Inicio_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Telinicio());
+            NavigationService.Navigate(new Telinicio());        
         }
-
     }
 }

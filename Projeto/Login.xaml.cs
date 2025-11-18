@@ -24,5 +24,9 @@ namespace Projeto
         {
             InitializeComponent();
         }
+        private void Inicio_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Telinicio());
+        }
     }
 }

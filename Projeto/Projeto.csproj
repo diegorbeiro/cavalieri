@@ -9,15 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="bg.jpg" />
+    <None Remove="Cadastro.png" />
     <None Remove="Fazer Login %281%29.png" />
     <None Remove="Fazer Login %283%29.png" />
     <None Remove="Fazer Login.png" />
+    <None Remove="LOGIN.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="bg.jpg" />
+    <Resource Include="Cadastro.png" />
     <Resource Include="Fazer Login (1).png" />
     <Resource Include="Fazer Login (3).png" />
     <Resource Include="Fazer Login.png" />
+    <Resource Include="LOGIN.png" />
   </ItemGroup>
 
 </Project>
